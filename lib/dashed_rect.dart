@@ -13,6 +13,7 @@ class DashedRect extends StatelessWidget {
   /// Creates a DashedRect which contain doted line
   ///
   final Color color;
+
   /// The amount of space by which to inset the child.
   final double strokeWidth;
   final double gap;
@@ -22,8 +23,9 @@ class DashedRect extends StatelessWidget {
     this.color = Colors.black,
     this.strokeWidth = 1.0,
     this.gap = 5.0,
-  Key? key,
-  }):assert(strokeWidth > 0 && gap > 0),super(key: key);
+    Key? key,
+  })  : assert(strokeWidth > 0 && gap > 0),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +41,7 @@ class DashedRect extends StatelessWidget {
     );
   }
 }
+
 /// A widget that create the doted line itself.
 class DashRectPainter extends CustomPainter {
   double strokeWidth;

@@ -5,7 +5,7 @@ import 'package:dashed_rect/dashed_rect.dart';
 
 void main() {
   test('adds one to input values', () {
-    const dashedRect =  DashedRect(
+    const dashedRect = DashedRect(
       color: Colors.red,
       gap: 1.0,
     );
