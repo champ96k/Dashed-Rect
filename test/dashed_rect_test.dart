@@ -8,6 +8,7 @@ void main() {
     const dashedRect = DashedRect(
       color: Colors.red,
       gap: 1.0,
+      child: SizedBox(height: 20, width: 20.0),
     );
     expect(dashedRect.color, Colors.green);
   });

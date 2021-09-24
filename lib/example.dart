@@ -19,46 +19,21 @@ class ExampleApp extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: const [
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 2,
-                      strokeWidth: 1,
+                  DashedRect(
+                    gap: 2,
+                    strokeWidth: 1,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
                     ),
                   ),
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 2,
-                      strokeWidth: 1,
-                      color: Colors.indigo,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16.0),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.green,
-                    child: const DashedRect(
-                      gap: 2,
-                      strokeWidth: 1,
-                    ),
-                  ),
-                  Container(
-                    height: 100,
-                    width: 100,
+                  DashedRect(
+                    gap: 2,
+                    strokeWidth: 1,
                     color: Colors.indigo,
-                    child: const DashedRect(
-                      gap: 2,
-                      strokeWidth: 6,
-                      color: Colors.red,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
                     ),
                   ),
                 ],
@@ -67,97 +42,123 @@ class ExampleApp extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.yellow,
-                    child: const DashedRect(
-                      gap: 12,
-                      strokeWidth: 1,
+                  DashedRect(
+                    gap: 2,
+                    strokeWidth: 1,
+                    child: Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.green,
                     ),
                   ),
-                  const SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 2,
-                      strokeWidth: 12,
-                      color: Colors.red,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16.0),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 12,
-                      strokeWidth: 12,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 12,
-                      strokeWidth: 1,
-                      color: Colors.red,
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16.0),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(
-                      gap: 10,
-                      strokeWidth: 10,
-                      color: Colors.orange,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 100,
-                    width: 100,
-                    child: DashedRect(),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 16.0),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(12.0),
-                    ),
-                    child: const DashedRect(
-                      gap: 8,
-                      strokeWidth: 8.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  Container(
-                    height: 100,
-                    width: 100,
-                    decoration: BoxDecoration(
+                  DashedRect(
+                    gap: 2,
+                    strokeWidth: 6,
+                    color: Colors.red,
+                    child: Container(
+                      height: 100,
+                      width: 100,
                       color: Colors.indigo,
-                      borderRadius: BorderRadius.circular(12.0),
                     ),
-                    child: const DashedRect(
-                      gap: 8,
-                      strokeWidth: 8.0,
-                      color: Colors.orange,
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  DashedRect(
+                    gap: 12,
+                    strokeWidth: 1,
+                    child: Container(
+                      height: 100,
+                      width: 100,
+                      color: Colors.yellow,
+                    ),
+                  ),
+                  const DashedRect(
+                    gap: 2,
+                    strokeWidth: 12,
+                    color: Colors.red,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: const [
+                  DashedRect(
+                    gap: 12,
+                    strokeWidth: 12,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
+                    ),
+                  ),
+                  DashedRect(
+                    gap: 12,
+                    strokeWidth: 1,
+                    color: Colors.red,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: const [
+                  DashedRect(
+                    gap: 10,
+                    strokeWidth: 10,
+                    color: Colors.orange,
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
+                    ),
+                  ),
+                  DashedRect(
+                    child: SizedBox(
+                      height: 100,
+                      width: 100,
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  DashedRect(
+                    gap: 8,
+                    strokeWidth: 8.0,
+                    color: Colors.white,
+                    child: Container(
+                      height: 100,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
+                    ),
+                  ),
+                  DashedRect(
+                    gap: 8,
+                    strokeWidth: 8.0,
+                    color: Colors.orange,
+                    child: Container(
+                      height: 100,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: Colors.indigo,
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
                     ),
                   ),
                 ],
