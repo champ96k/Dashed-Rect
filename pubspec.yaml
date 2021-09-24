@@ -1,7 +1,7 @@
 name: dashed_rect
 description: This package allows you to draw dotted lines with Flutter. You can draw a beautiful
   dotted line around any widget.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/champ96k/DashedRect
 
 environment:

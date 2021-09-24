@@ -20,7 +20,7 @@ To use this package :
 dependencies:
   flutter:
     sdk: flutter
-  dashed_rect: ^0.0.3
+  dashed_rect: ^0.0.4
 ```
 
 ### How to use

@@ -20,18 +20,18 @@ To use this package :
 dependencies:
   flutter:
     sdk: flutter
-  dashed_rect: ^0.0.3
+  dashed_rect: ^0.0.4
 ```
 
 ### How to use
 
 ```dart
  DashedRect(
-    gap: 8,
-    strokeWidth: 8.0,
-    color: Colors.white,
-    child: yourWidget,
-  ),
+gap: 8,
+strokeWidth: 8.0,
+color: Colors.white,
+child: yourWidget,
+),
 ```
 
 ### Created & Maintained By

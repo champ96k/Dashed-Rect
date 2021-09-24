@@ -6,7 +6,10 @@ A Flutter package to easily add dashed borders around widgets
 
 Improve documentation
 
-
 ## 0.0.3
 
 Follow Dart file conventions
+
+## 0.0.4
+
+Follow Dart file conventions and added child widget support
